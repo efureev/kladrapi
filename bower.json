@@ -1,17 +1,24 @@
 {
-  "name": "jquery.kladr",
-  "version": "2.2.1",
-  "main": "jquery.kladr.min.js",
-  "homepage": "https://github.com/garakh/kladrapi-jsclient",
+  "name": "jquery.kladrapi",
+  "version": "2.2.2",
+  "description": "jQuery Kladr API compatible Yii2:yii.js",
+  "main": [
+    "dist/jquery.kladr.min.js",
+    "dist/jquery.kladr.min.css"
+  ],
+  "homepage": "https://github.com/efureev/kladrapi",
   "authors": [
     {
       "name": "Alexandr Yakovlev",
       "email": "xescoder@gmail.com",
-      "homepage": "https://www.linkedin.com/in/xescoder"
+      "url": "https://www.linkedin.com/in/xescoder"
+    },
+    {
+      "name": "Fureev Eugene",
+      "email": "fureev@gmail.com"
     }
   ],
   "license": "Public Domain",
-  "description": "jQuery Kladr",
   "keywords": [
     "kladr",
     "jquery"

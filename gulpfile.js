@@ -15,11 +15,11 @@ gulp.task('default', function () {
 		.pipe(concat('jquery.kladr.js'))
 		.pipe(uglify())
 		.pipe(rename({suffix: '.min'}))
-		.pipe(gulp.dest('./'));
+		.pipe(gulp.dest('./dist/'));
 
 	// CSS
 	gulp.src('./kladr/css/style.css')
 		.pipe(csso())
 		.pipe(rename('jquery.kladr.min.css'))
-		.pipe(gulp.dest('./'));
+		.pipe(gulp.dest('./dist/'));
 });

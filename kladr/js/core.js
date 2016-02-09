@@ -124,14 +124,14 @@
 			timeout = null;
 		}, 3000);
 
-		$.getJSON($.kladr.url + "?callback=?",
+		$.get($.kladr.url + "?callback=?",
 			toApiFormat(query),
 			function (data) {
 				if (timeout) {
 					callback(data.result || []);
 					clearTimeout(timeout);
 				}
-			}
+			},'jsonp'
 		);
 	};
 
